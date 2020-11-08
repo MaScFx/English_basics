@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/bnm_simple"
+            android:enabled="true"
+            android:icon="@drawable/simple_test"
+            android:title="Simple"
+            app:showAsAction="ifRoom" />
+        <item
+            android:id="@+id/bnm_continuous"
+            android:enabled="true"
+            android:icon="@drawable/continuous_test"
+            android:title="Continuous"
+            app:showAsAction="ifRoom" />
+        <item
+            android:id="@+id/bnm_perfect"
+            android:enabled="true"
+            android:icon="@drawable/perfect_test"
+            android:title="Perfect"
+            app:showAsAction="ifRoom" />
+        <item
+            android:id="@+id/bnm_perfect_continuous"
+            android:enabled="true"
+            android:icon="@drawable/perfect_continuous_test"
+            android:title="Perfect_continuous"
+            app:showAsAction="ifRoom" />
+    </group>
+</menu>
